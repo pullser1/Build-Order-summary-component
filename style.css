@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+
+.container {
+     position: relative;
+     height: 100vh;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     background-color: #e0e8ff;
+}
+.background-img {
+     width: 100%;
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+}
+.card {
+     background-color: #f7f9ff;
+     border-radius: 20px;
+     width: 450px;
+     box-shadow: 0px 0px 2px #000;
+     z-index: 2;
+}
+.card-picture {
+     width: 450px;
+     height: 220px;
+}
+.card-picture img {
+     width: 100%;
+     height: 100%;
+}
+.card-container {
+     margin-top: 48px;
+     height: 50%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+.card-information {
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     max-width: 354px;
+}
+.card-information {
+     display: flex;
+     flex-direction: column;
+     gap: 15px;
+}
+
+/* title style */
+.card-name {
+     font-weight: 900;
+     font-family: "Red Hat Display", sans-serif;
+     font-size: 28px;
+     color: #1f2e55;
+}
+
+.card-text {
+     font-size: 16px;
+     text-align: center;
+     font-weight: 100;
+     font-family: "Red Hat Display", sans-serif;
+}
+.order {
+     background-color: #f7f9ff;
+     padding: 25px;
+     width: 100%;
+     justify-content: space-between;
+     display: flex;
+     align-items: center;
+}
+.order > div {
+     display: flex;
+     gap: 20px;
+}
+
+.change-button a {
+     font-family: "Red Hat Display", sans-serif;
+     font-weight: 700;
+     font-size: 17px;
+     color: #382ae1;
+     transition: 0.3s ease-in-out;
+}
+.change-button a:hover {
+     color: #766cf1;
+}
+
+.pay-title {
+     display: flex;
+     flex-direction: column;
+     gap: 6px;
+     color: #1f2e55;
+}
+.pay-title h2:first-child {
+     font-family: "Red Hat Display", sans-serif;
+     font-weight: 900;
+     font-size: 16px;
+}
+.pay-title span {
+     font-family: "Red Hat Display", sans-serif;
+     font-weight: 500;
+     font-size: 16px;
+     color: #717fa6;
+}
+
+.button-container {
+     gap: 32px;
+}
+.pay-btn {
+     border: none;
+     cursor: pointer;
+     border-radius: 11px;
+     background-color: #382ae1;
+     font-family: "Red Hat Display", sans-serif;
+     color: #fff;
+     padding: 15px 102px;
+     transition: 0.3s ease-in-out;
+}
+.pay-btn:hover {
+     background-color: #766cf1;
+}
+.cancel-btn {
+     cursor: pointer;
+     font-family: "Red Hat Display", sans-serif;
+     background: transparent;
+     color: #717fa6;
+     margin: 32px auto;
+     border: none;
+     display: block;
+     transition: 0.3s ease-in-out;
+}
+.cancel-btn:hover {
+     color: #1f2e55;
+}
